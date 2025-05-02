@@ -92,7 +92,7 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     height: auto;
-    max-height: 480px;
+    max-height: 53vh;
     overflow-y: auto;
     scrollbar-width: none;
     display: none;
