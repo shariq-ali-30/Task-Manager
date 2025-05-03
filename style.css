@@ -96,7 +96,7 @@ body {
     overflow-y: auto;
     scrollbar-width: none;
     display: none;
-    animation: fadeIn 0.4s ease-out, fadeOut 0.4s ease-out;
+    animation: fadeIn 0.4s ease-out;
 }
 @keyframes fadeIn {
     0% {
@@ -104,14 +104,6 @@ body {
     }
     100% {
         opacity: 1;
-    }
-}
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
     }
 }
 
