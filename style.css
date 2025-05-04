@@ -1,5 +1,6 @@
 :root {
     --primary-color: #00b894;
+    --primary-gradient: linear-gradient(135deg, #00b894, #00cec9);
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 }
 
 .header {
-    background-color: var(--primary-color);
+    background-color: var(--primary-gradient);
     height: 100px;
     display: flex;
     align-items: center;
