@@ -67,7 +67,7 @@ body {
 }
 
 .task-manager form button {
-    background: var(--primary-gradient);
+    background: var(--primary-color);
     font-size: clamp(15px, 2vw, 16px);
     color: #fff;
     border: none;
