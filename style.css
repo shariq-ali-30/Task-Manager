@@ -63,7 +63,7 @@ body {
     height: 45px;
 }
 .task-manager form input[type="text"]:focus {
-    border: 1.5px solid var(--primary-color);
+    border: 1.5px solid var(--primary-gradient);
     border-right: none;
 }
 
@@ -76,11 +76,10 @@ body {
     cursor: pointer;
     height: 45px;
     width: 60px;
-    transition: background-color 0.1s, scale 0.1s;
+    transition: scale 0.1s ease;
 }
 .task-manager form button:active {
     scale: 0.98;
-    background: #007830;
 }
 
 .task-list {
