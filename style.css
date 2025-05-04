@@ -1,6 +1,6 @@
 :root {
     --primary-color: #00b894;
-    --primary-gradient: linear-gradient(135deg, #00b894, #00cec9);
+    --primary-gradient: linear-gradient(45deg, #00b894, #00cec9);
 }
 
 * {
@@ -68,7 +68,7 @@ body {
 }
 
 .task-manager form button {
-    background-color: var(--primary-color);
+    background: var(--primary-gradient);
     font-size: clamp(15px, 2vw, 16px);
     color: #fff;
     border: none;
