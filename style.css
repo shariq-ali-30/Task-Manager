@@ -125,6 +125,10 @@ body {
 .task-list li:last-child {
     border-bottom: none;
 }
+.task-list li:hover {
+    background-color: #f0f8f7;
+    transition: background-color 0.3s;
+}
 @keyframes fadeIn {
     0% {
         opacity: 0;
