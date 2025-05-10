@@ -85,7 +85,7 @@ body {
 .task-list {
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 90%;
     background-color: #fff;
     border-radius: 10px;
